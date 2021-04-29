@@ -1,0 +1,41 @@
+li{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+}
+#fstbtn,#scndbtn{
+    padding: 15px 15px 15px 15px;
+    color: white;
+    background-color: rgb(40, 40, 82);
+    font-size: 20px;
+}
+#fstbtn:hover{
+    background-color: rgb(19, 19, 39); cursor: pointer;
+}
+ #scndbtn:hover{
+    background-color: rgb(19, 19, 39);
+    cursor: pointer;
+}
+
+#img_div img{
+    height: 100vh;
+    width: 100%;
+    object-fit: contain;
+   
+}
+#secimg_div img{
+    height: 90vh;
+    width: 100%;
+    object-fit: contain;
+}
+#img_cop{
+    height: 90vh;
+    width: 100%;
+    object-fit: contain;
+    padding: 25px 25px;
+}
